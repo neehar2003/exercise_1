@@ -11,8 +11,16 @@ var title = new List<string>
 
 };
 
+Console.WriteLine(string.Join(", ", title));
+
 title.Add("Deploy to test");
+
+Console.WriteLine(string.Join(", ", title));
+
 title.Remove("Review PR");
+
+Console.WriteLine(string.Join(", ", title));
+
 title.Sort();
 
 Console.WriteLine(string.Join(", ", title));
